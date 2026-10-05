@@ -1,0 +1,10 @@
+import type { Testimonial } from '@/app/types/testimonial.types'
+
+export const TESTIMONIALS_DATA: Testimonial[] = [
+  { id:1, initials:'RS', rating:5, service:'VDF Flooring',    name:'Rajesh Sharma',   company:'Speedy Logistics Pvt Ltd',        location:'Medchal, Hyderabad',   text:'Very professional team. The VDF flooring at our warehouse is excellent. They completed 20,000 sqft in just 8 days — ahead of schedule! Quality is outstanding.' },
+  { id:2, initials:'MK', rating:5, service:'Tremix Flooring', name:'Mohammed Khan',   company:'Precision Manufacturing Ltd',     location:'Patancheru, Hyderabad', text:'We hired Instant VDF for our factory floor. Tremix work was top quality. No cracks, no dust, perfectly smooth. Highly recommended for industrial flooring.' },
+  { id:3, initials:'PV', rating:5, service:'RCC Roads',       name:'Praveen Varma',   company:'Sunrise Realty Developers',       location:'Shadnagar, Telangana',  text:'Best RCC road contractor in Hyderabad. They did our 1.5 km layout road. The flatness and finishing is superb. Price was also very reasonable.' },
+  { id:4, initials:'SK', rating:5, service:'Laser Screed',    name:'Sanjay Kumar',    company:'FrostLine Cold Chain Solutions',  location:'Shamshabad, Hyderabad', text:'The laser screed superflat floor they built for our cold storage exceeded all specifications. Forklifts operate perfectly. Very impressed with the accuracy.' },
+  { id:5, initials:'NA', rating:5, service:'Waterproofing',   name:'Nandini Agarwal', company:'Green Valley Apartments',         location:'Kukatpally, Hyderabad', text:'Terrace waterproofing done perfectly. No leakages even after monsoon season. The team was clean, professional, and completed the work on schedule.' },
+  { id:6, initials:'VR', rating:5, service:'VDF Flooring',    name:'Vikram Reddy',    company:'AutoNation Showroom',             location:'Sangareddy, Telangana', text:'Excellent VDF flooring with epoxy finish for our automobile showroom. The mirror-finish floor looks fantastic and our customers love it. Exceptional work.' },
+]
